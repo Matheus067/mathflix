@@ -3,10 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>MathFlix</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>MathFlix - Login</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="content first-content">
+            <div class="first-column">
+                <h2 class="title title-primary">bem-vindo de volta!</h2>
+                <p class="description description-primary">Conecte-se conosco</p>
+                <p class="description description-primary">Por favor conecte-se com suas informações pessoais</p>
+                <button class="btn btn-primary">Iniciar sessão</button>
+            </div>
+            <div class="second-column">
+                <h2 class="title title-second">criar conta</h2>
+                <div class="social-media">
+                    <ul class="list-social-media">
+                        <a class="link-social-media" href="#">
+                        <li class="item-social-media">
+                            <i class="fab fa-facebook-f"></i>
+                        </li>
+                        </a>
+                        <a class="link-social-media" href="#">
+                        <li class="item-social-media">
+                            <i class="fas fa-at"></i>
+                        </li>
+                        </a>
+                        <a class="link-social-media" href="#">
+                        <li class="item-social-media">
+                            <i class="fab fa-linkedin-in"></i>
+                        </li>
+                        </a>
+                    </ul>
+                </div><!-- social media -->
+                <p class="description description-second">ou utilize o seu e-mail para registro</p>
+                <form class="form">
+                    <label class="label-input" for="">
+                        <i class="fas fa-envelope icon-modify"></i>
+                        <input type="email" placeholder="Email">
+                    </label>
+                    <label class="label-input" for="">
+                        <i class="fas fa-lock icon-modify"></i>
+                        <input type="password" placeholder="Senha">
+                    </label>
+                    <label class="label-input" for="">
+                        <i class="fas fa-user icon-modify"></i>
+                        <input type="text" placeholder="Nome">
+                    </label>
+                    <label for="">
+                        <i class="fas fa-calendar-alt icon-modify"></i>
+                        <input type="date" placeholder="Data de nascimento">
+                    </label>
+                    <button class="btn btn-second">cadastrar</button>
+                </form>
+            </div><!-- second column -->
+        </div><!-- first content -->
+        <div class="content second-content">
+            <div class="first-column">
+                <h2 class="title">olá, amigo</h2>
+                <p class="description">Insira seus dados pessoais</p>
+                <p class="description">e assista os melhores filmes conosco</p>
+                <button class="btn">criar conta</button>
+            </div>
+            <div class="second-column">
+                <h2 class="title">Inicie a sessão para assistir os filmes</h2>
+                <div class="social-media">
+                    <ul>
+                        <li><a href="#">facebook</a></li>
+                        <li><a href="#">gmail</a></li>
+                        <li><a href="#">linkedin</a></li>
+                    </ul>
+                </div><!-- social media -->
+                <p class="description">ou utilize o seu e-mail</p>
+                <form class="form">
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="Senha">
+                    <a href="#">esqueceu sua senha?</a>
+                    <button class="btn">cadastrar-se</button>
+                </form>
+            </div><!-- second column -->
+        </div><!-- second content -->
+    </div>
 </body>
 </html>
